@@ -14,7 +14,6 @@ class Coffee(QMainWindow):
         info = cur.execute("SELECT * FROM coffee")
         for i in info:
             inf += str(list(i)[1:-1])
-        print(inf)
         con.close()
         self.label.setText(inf)
 
