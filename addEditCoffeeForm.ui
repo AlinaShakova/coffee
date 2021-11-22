@@ -16,39 +16,89 @@
   <widget class="QWidget" name="centralwidget">
    <layout class="QGridLayout" name="gridLayout_2">
     <item row="0" column="0">
-     <widget class="QLabel" name="label">
-      <property name="text">
-       <string>Чтобы создать новую запись, введите через запятую следующие данные:</string>
-      </property>
-     </widget>
-    </item>
-    <item row="3" column="1">
-     <widget class="QLabel" name="label_3">
-      <property name="text">
-       <string>Введите через запятую новые данные</string>
-      </property>
-     </widget>
-    </item>
-    <item row="4" column="1">
-     <widget class="QTextEdit" name="textEdit_4"/>
-    </item>
-    <item row="2" column="0">
-     <widget class="QTextEdit" name="textEdit"/>
-    </item>
-    <item row="3" column="0">
-     <widget class="QLabel" name="label_2">
-      <property name="text">
-       <string>Введите через запятую колонки, которые хотите изменить</string>
-      </property>
-     </widget>
-    </item>
-    <item row="4" column="0">
-     <widget class="QTextEdit" name="textEdit_2"/>
+     <layout class="QVBoxLayout" name="verticalLayout_3">
+      <item>
+       <widget class="QLabel" name="label">
+        <property name="text">
+         <string>'Чтобы создать новую запись, введите через пробел введите следующие данные:</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_6">
+        <property name="text">
+         <string>название сорта</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_7">
+        <property name="text">
+         <string>степень обжарки</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_8">
+        <property name="text">
+         <string>молотый/в зернах</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_2">
+        <property name="text">
+         <string>описание вкуса</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_3">
+        <property name="text">
+         <string>цена</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_4">
+        <property name="text">
+         <string>объем</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEdit"/>
+      </item>
+     </layout>
     </item>
     <item row="1" column="0">
-     <widget class="QLabel" name="label_4">
+     <layout class="QVBoxLayout" name="verticalLayout_2">
+      <item>
+       <widget class="QLabel" name="label_9">
+        <property name="text">
+         <string>Введите через пробел название колонки, которую хотите изменить и id нужюной ячейки</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEdit1"/>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_5">
+        <property name="text">
+         <string>Введите новые данные</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEdit2"/>
+      </item>
+     </layout>
+    </item>
+    <item row="2" column="0">
+     <widget class="QPushButton" name="pushButton">
       <property name="text">
-       <string>название сорта, степень обжарки, молотый/в зернах, описание вкуса, цена, объем</string>
+       <string>Изменить базу данных</string>
       </property>
      </widget>
     </item>
