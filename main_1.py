@@ -9,7 +9,7 @@ class Coffee(QMainWindow):
         super().__init__()
         inf = ''
         uic.loadUi('main.ui', self)
-        con = sqlite3.connect("coffee.db")
+        con = sqlite3.connect("cofe.db")
         cur = con.cursor()
         info = cur.execute("SELECT * FROM coffee")
         for i in info:
