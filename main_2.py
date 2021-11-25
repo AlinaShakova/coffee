@@ -28,6 +28,7 @@ class Coffee(QMainWindow):
         con.close()
 
 
+
 if __name__ == '__main__':
     app = QApplication(sys.argv)
     window = Coffee()
