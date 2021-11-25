@@ -11,7 +11,7 @@ class Coffee(QMainWindow):
         self.pushButton.clicked.connect(self.chang)
 
     def chang(self):
-        con = sqlite3.connect("coffee.db")
+        con = sqlite3.connect("cofe.db")
         cur = con.cursor()
         if self.lineEdit.text() != '':
             a = self.lineEdit.text().split()
