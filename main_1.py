@@ -11,7 +11,7 @@ class Coffee(QMainWindow):
         uic.loadUi('main.ui', self)
         con = sqlite3.connect("cofe.db")
         cur = con.cursor()
-        info = cur.execute("SELECT * FROM coffee")
+        info = cur.execute("SELECT * FROM cofe")
         for i in info:
             inf += str(list(i)[1:-1])
         con.close()
